@@ -1,4 +1,7 @@
-*{
-    margin: 0px;
-    padding: 0px;
+.form{
+    background-color: bisque;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
 }
