@@ -40,7 +40,7 @@
     </div>
     <h1>exercicio 3</h1>
     <div class="form">
-        <form action="" method="post" ></form>
+        <form action="" method="post" >
         <div>
             <p>
                 <label for="nome"></label>
@@ -67,6 +67,33 @@
         </div>
              <input type="submit">
              <input type="reset">
+         </div>
+        </form>
+    <h1>exercicio 4</h1>
+         <div class="form">
+            <form action="" method="get">
+            <fieldset>
+                <legend>contato</legend>
+                <div>
+                    <p>
+                        <label for="email"></label>
+                        <input type="email" name="email" id="email" autocomplete="email" required>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <label for="telefone"></label>
+                        <input type="tel" name="telefone" id="telefone" pattern="^[0-9]{1} [0-9]{4}-[0-9]{4}$" required>
+                    </p>
+                </div>
+            </fieldset>
+            <div>
+                <p>
+                    <input type="submit" value="enviar">
+                    <input type="reset" value="limpar">
+                </p>
+            </div>
+</form>
          </div>
         
     
